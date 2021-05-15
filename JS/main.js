@@ -6,7 +6,7 @@ $( document ).ready(function() {
         translateY: -300,
         duration: 0.9, 
         width: $(window).width() < 700 ? "325px":"750px",
-        height: $(window).width() < 700 ? "250px":"500px",
+        height: $(window).width() < 700 ? "300px":"500px",
         ease: "back.inOut(1.5)",
     })
     .set(".fly-envelope .heart", {
